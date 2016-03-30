@@ -1,0 +1,22 @@
+{
+  "name": "fudi",
+  "authors": [
+    "Daria Kuznetsova <kds2108list.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.12.0",
+    "normalize-css": "normalize.css#^3.0.3"
+  }
+}
