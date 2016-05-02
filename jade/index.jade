@@ -1,0 +1,171 @@
+doctype html
+html(lang='en-ru')
+	head
+		meta(charset='UTF-8')
+		meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+		meta(name='viewport' content='width=device-width,initial-scale=1.0')
+		link(rel="stylesheet" href="bower/normalize-css/normalize.css")
+		link(href="css/hamburgers.css" rel="stylesheet")
+		link(rel="stylesheet" type="text/css" href="css/main.css")
+		title Recipes
+
+	body
+		.main-wrapper#up
+			a(href='#up').up-button Up!
+			header.header
+				.wrapper
+					.header__wrapper
+						.header__logo
+							a(href="#").header__logo_link
+						.header__menu
+							ul.header__menu_list
+								li.header__menu_item
+									a(href='#test').header__menu_link LOG IN
+								li.header__menu_item
+									a(href='#test').header__menu_link SIGN UP
+								li.header__menu_item.burger-wrapper
+									a(href='#').trigger.header__menu_link
+										.hamburger.hamburger--elastic
+											span.hamburger-box
+												span.hamburger-inner
+				.wrapper
+					.header__main-block
+						.header__main-block_first Find your Favorite
+						h1.header__main-block_name RECIPES
+						.header__main-block_button
+							a(href="#cuisine").header__button GET STARTED
+						.header__main-block_text OR SEND US YOUR OWN RECIPES
+							span.and  AND 
+							a(href="#test").header__main-block_link GET REWARDED
+
+			.content
+
+				.wrapper
+					.content__list-wrapper
+						ul.content__list
+							li.content__item
+								.content__item1
+									.content__item_text GET INSPIRED
+									.content__item_text-line
+									p.content__item_paragraph.
+										 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus eum eius expedita at, nesciunt!
+								.content__item2
+									.content__item_icon.content__item_icon1
+									.content__item_text-line
+									.content__item_text GET INSPIRED
+							li.content__item
+								.content__item1
+									.content__item_text GET REWARDED
+									.content__item_text-line
+									p.content__item_paragraph.
+										 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolore nemo, inventore consequatur!
+								.content__item2
+									.content__item_icon.content__item_icon2
+									.content__item_text-line
+									.content__item_text GET REWARDED
+							li.content__item
+								.content__item1
+									.content__item_text GET SOCIAL
+									.content__item_text-line
+									p.content__item_paragraph.
+										 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis autem numquam, ex soluta vitae!
+								.content__item2
+									.content__item_icon.content__item_icon3
+									.content__item_text-line
+									.content__item_text GET SOCIAL
+
+				.content__info-wrapper
+					.wrapper
+						.content__info_picture
+							img(src="/images/tel.png")
+						.content__info_introduce
+							.content__info_introduce-title INTRODUCING THE FUDI APP
+							.content__info_introduce-text
+								p.content__info_introduce-paragraph.
+									 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ducimus harum reiciendislibero eius autem, ducimus harum reiciendis voluptate, expedita reprehenderit labore sed!
+								p.content__info_introduce-paragraph.
+									 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, eum, nam! Enim nihil, laudantium accusantium, molestiae, error quam asperiores sit odit vero non, blanditiis voluptas.
+								p.content__info_introduce-paragraph.
+									 Lorem ipsum dolor sit amet, ducimus harum reiciendis consectetur adipisicing elit. Laborum, repudiandae nisi? Quod iusto qui non.
+							.content__info_introduce-links
+								a(href="#test").content__info_introduce-link
+									img(src="/images/app-store.png").app-store-img
+								a(href="#test").content__info_introduce-link
+									img(src="/images/google-play.png").google-play-img
+			
+				.content__references
+					.track.my-track
+						.view-port
+							.slider-container
+								.item.block1
+									.content__references_photo
+									.content__references_ref
+										p.content__references_text.
+											"I am so happy because I found this recipe, and it just made my life easier. Thanks so much for sharing!"
+										p.content__references_address.
+											- Michael Dowson, San Francisco, CA -
+								.item.block2
+									.content__references_photo
+									.content__references_ref
+										p.content__references_text.
+											"Here is some great comment to this great site with such great recipes!"
+										p.content__references_address.
+											- Jane Doe, Paris, France -
+								.item.block3
+									.content__references_photo
+									.content__references_ref
+										p.content__references_text.
+											"One more wonderful feedback from a person whose life became better after using this website :)"
+										p.content__references_address.
+											- John Doe, Amsterdam, Netherlands -
+						.pagination
+							a(href='#').pagination-link.prev.disabled
+							a(href='#').pagination-link.next
+					.bullet-pagination
+
+				.content-cuisine#cuisine
+					.content-cuisine-title BROWSE BY CUISINES
+					.content-cuisine-wrapper
+						ul.content-cuisine-list
+							- var cuisine_list = {'italian':'327','indian':'407','french':'822','steak':'412','seafood':'97','sushi':'127','mexican':'371','chinese':'346','pizza':'177','american':'279'}
+							- each val, key in cuisine_list
+								li.content-cuisine__item
+									figure.content-cuisine-figure.effect-chico
+										img(src="/images/cuisine/#{key}.jpg" alt="#{key}").content-cuisine-img
+										figcaption
+											.content-cuisine__name= key
+											.content-cuisine__recipes #{val} Recipes
+											a(href='#test' class="#{key}").content-cuisine__link
+
+				.wrapper.content-figures
+					ul.content-figures-list
+						li.content-figures__item
+							p.content-figures__counter.spincrement 23567
+							span.content-figures__text Recipes Available
+						li.content-figures__item
+							p.content-figures__counter.spincrement 431279
+							span.content-figures__text Active Users
+						li.content-figures__item
+							p.content-figures__counter.spincrement 8921
+							span.content-figures__text Positive Reviews
+						li.content-figures__item
+							p.content-figures__counter.spincrement 56581
+							span.content-figures__text Photos&Videos
+						li.content-figures__item
+							p.content-figures__counter.spincrement 3182
+							span.content-figures__text Spices and Herbs
+
+			footer.footer
+				.wrapper
+					.footer__left.
+						&copy;2014 Fudi. All Rights Reserved
+					.footer__right DESIGN BY: 
+						span.designer AMATEUR
+		
+		script(src="vendor-js/jquery.min.js")
+		script(src="vendor-js/jquery.spincrement.min.js")
+		script(type="text/javascript" src='vendor-js/jquery.silver-track/jquery.silver_track.js' charset="utf-8")
+		script(type="text/javascript" src='vendor-js/jquery.silver-track/jquery.silver_track.navigator.js' charset="utf-8")
+		script(type="text/javascript" src='vendor-js/jquery.silver-track/jquery.silver_track.circular_navigator.js' charset="utf-8")
+		script(type="text/javascript" src='vendor-js/jquery.silver-track/jquery.silver_track.bullet_navigator.js' charset="utf-8")
+		script(src="js/main.js")

@@ -35,18 +35,6 @@ var silver_track = function () {
 
 };
 
-// (function() {
-//     var width = $(window).width();
-//     console.log (width);
-    
-//     if (width <= 480) {
-//         if('.my-track') {
-//             silver_track();
-//         };
-//     };
-
-// }());
-
 (function() {
 
     function windowSize(){

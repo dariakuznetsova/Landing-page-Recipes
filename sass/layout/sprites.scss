@@ -1,0 +1,370 @@
+$cook-icon-name: 'cook-icon';
+$cook-icon-x: 0px;
+$cook-icon-y: 0px;
+$cook-icon-offset-x: 0px;
+$cook-icon-offset-y: 0px;
+$cook-icon-width: 107px;
+$cook-icon-height: 107px;
+$cook-icon-total-width: 364px;
+$cook-icon-total-height: 284px;
+$cook-icon-image: '../images/sprite1.png';
+$cook-icon: (0px, 0px, 0px, 0px, 107px, 107px, 364px, 284px, '../images/sprite1.png', 'cook-icon', );
+$dot-active-name: 'dot-active';
+$dot-active-x: 261px;
+$dot-active-y: 248px;
+$dot-active-offset-x: -261px;
+$dot-active-offset-y: -248px;
+$dot-active-width: 10px;
+$dot-active-height: 10px;
+$dot-active-total-width: 364px;
+$dot-active-total-height: 284px;
+$dot-active-image: '../images/sprite1.png';
+$dot-active: (261px, 248px, -261px, -248px, 10px, 10px, 364px, 284px, '../images/sprite1.png', 'dot-active', );
+$dot-name: 'dot';
+$dot-x: 354px;
+$dot-y: 0px;
+$dot-offset-x: -354px;
+$dot-offset-y: 0px;
+$dot-width: 10px;
+$dot-height: 10px;
+$dot-total-width: 364px;
+$dot-total-height: 284px;
+$dot-image: '../images/sprite1.png';
+$dot: (354px, 0px, -354px, 0px, 10px, 10px, 364px, 284px, '../images/sprite1.png', 'dot', );
+$hamburger-icon-name: 'hamburger-icon';
+$hamburger-icon-x: 177px;
+$hamburger-icon-y: 0px;
+$hamburger-icon-offset-x: -177px;
+$hamburger-icon-offset-y: 0px;
+$hamburger-icon-width: 107px;
+$hamburger-icon-height: 107px;
+$hamburger-icon-total-width: 364px;
+$hamburger-icon-total-height: 284px;
+$hamburger-icon-image: '../images/sprite1.png';
+$hamburger-icon: (177px, 0px, -177px, 0px, 107px, 107px, 364px, 284px, '../images/sprite1.png', 'hamburger-icon', );
+$icon-line-name: 'icon-line';
+$icon-line-x: 177px;
+$icon-line-y: 177px;
+$icon-line-offset-x: -177px;
+$icon-line-offset-y: -177px;
+$icon-line-width: 88px;
+$icon-line-height: 1px;
+$icon-line-total-width: 364px;
+$icon-line-total-height: 284px;
+$icon-line-image: '../images/sprite1.png';
+$icon-line: (177px, 177px, -177px, -177px, 88px, 1px, 364px, 284px, '../images/sprite1.png', 'icon-line', );
+$menu-name: 'menu';
+$menu-x: 177px;
+$menu-y: 248px;
+$menu-offset-x: -177px;
+$menu-offset-y: -248px;
+$menu-width: 14px;
+$menu-height: 10px;
+$menu-total-width: 364px;
+$menu-total-height: 284px;
+$menu-image: '../images/sprite1.png';
+$menu: (177px, 248px, -177px, -248px, 14px, 10px, 364px, 284px, '../images/sprite1.png', 'menu', );
+$money-icon-name: 'money-icon';
+$money-icon-x: 0px;
+$money-icon-y: 177px;
+$money-icon-offset-x: 0px;
+$money-icon-offset-y: -177px;
+$money-icon-width: 107px;
+$money-icon-height: 107px;
+$money-icon-total-width: 364px;
+$money-icon-total-height: 284px;
+$money-icon-image: '../images/sprite1.png';
+$money-icon: (0px, 177px, 0px, -177px, 107px, 107px, 364px, 284px, '../images/sprite1.png', 'money-icon', );
+$spritesheet-width: 364px;
+$spritesheet-height: 284px;
+$spritesheet-image: '../images/sprite1.png';
+$spritesheet-sprites: ($cook-icon, $dot-active, $dot, $hamburger-icon, $icon-line, $menu, $money-icon, );
+$spritesheet: (364px, 284px, '../images/sprite1.png', $spritesheet-sprites, );
+
+
+
+$american-hover-name: 'american-hover';
+$american-hover-x: 390px;
+$american-hover-y: 0px;
+$american-hover-offset-x: -390px;
+$american-hover-offset-y: 0px;
+$american-hover-width: 320px;
+$american-hover-height: 225px;
+$american-hover-total-width: 1490px;
+$american-hover-total-height: 1405px;
+$american-hover-image: '../images/sprite2.png';
+$american-hover: (390px, 0px, -390px, 0px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'american-hover', );
+$american-name: 'american';
+$american-x: 1170px;
+$american-y: 295px;
+$american-offset-x: -1170px;
+$american-offset-y: -295px;
+$american-width: 320px;
+$american-height: 225px;
+$american-total-width: 1490px;
+$american-total-height: 1405px;
+$american-image: '../images/sprite2.png';
+$american: (1170px, 295px, -1170px, -295px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'american', );
+$chinese-hover-name: 'chinese-hover';
+$chinese-hover-x: 1170px;
+$chinese-hover-y: 1180px;
+$chinese-hover-offset-x: -1170px;
+$chinese-hover-offset-y: -1180px;
+$chinese-hover-width: 320px;
+$chinese-hover-height: 224px;
+$chinese-hover-total-width: 1490px;
+$chinese-hover-total-height: 1405px;
+$chinese-hover-image: '../images/sprite2.png';
+$chinese-hover: (1170px, 1180px, -1170px, -1180px, 320px, 224px, 1490px, 1405px, '../images/sprite2.png', 'chinese-hover', );
+$chinese-name: 'chinese';
+$chinese-x: 780px;
+$chinese-y: 1180px;
+$chinese-offset-x: -780px;
+$chinese-offset-y: -1180px;
+$chinese-width: 320px;
+$chinese-height: 224px;
+$chinese-total-width: 1490px;
+$chinese-total-height: 1405px;
+$chinese-image: '../images/sprite2.png';
+$chinese: (780px, 1180px, -780px, -1180px, 320px, 224px, 1490px, 1405px, '../images/sprite2.png', 'chinese', );
+$french-hover-name: 'french-hover';
+$french-hover-x: 780px;
+$french-hover-y: 0px;
+$french-hover-offset-x: -780px;
+$french-hover-offset-y: 0px;
+$french-hover-width: 320px;
+$french-hover-height: 225px;
+$french-hover-total-width: 1490px;
+$french-hover-total-height: 1405px;
+$french-hover-image: '../images/sprite2.png';
+$french-hover: (780px, 0px, -780px, 0px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'french-hover', );
+$french-name: 'french';
+$french-x: 780px;
+$french-y: 295px;
+$french-offset-x: -780px;
+$french-offset-y: -295px;
+$french-width: 320px;
+$french-height: 225px;
+$french-total-width: 1490px;
+$french-total-height: 1405px;
+$french-image: '../images/sprite2.png';
+$french: (780px, 295px, -780px, -295px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'french', );
+$indian-hover-name: 'indian-hover';
+$indian-hover-x: 0px;
+$indian-hover-y: 590px;
+$indian-hover-offset-x: 0px;
+$indian-hover-offset-y: -590px;
+$indian-hover-width: 320px;
+$indian-hover-height: 225px;
+$indian-hover-total-width: 1490px;
+$indian-hover-total-height: 1405px;
+$indian-hover-image: '../images/sprite2.png';
+$indian-hover: (0px, 590px, 0px, -590px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'indian-hover', );
+$indian-name: 'indian';
+$indian-x: 390px;
+$indian-y: 590px;
+$indian-offset-x: -390px;
+$indian-offset-y: -590px;
+$indian-width: 320px;
+$indian-height: 225px;
+$indian-total-width: 1490px;
+$indian-total-height: 1405px;
+$indian-image: '../images/sprite2.png';
+$indian: (390px, 590px, -390px, -590px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'indian', );
+$italian-hover-name: 'italian-hover';
+$italian-hover-x: 780px;
+$italian-hover-y: 590px;
+$italian-hover-offset-x: -780px;
+$italian-hover-offset-y: -590px;
+$italian-hover-width: 320px;
+$italian-hover-height: 225px;
+$italian-hover-total-width: 1490px;
+$italian-hover-total-height: 1405px;
+$italian-hover-image: '../images/sprite2.png';
+$italian-hover: (780px, 590px, -780px, -590px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'italian-hover', );
+$italian-name: 'italian';
+$italian-x: 1170px;
+$italian-y: 0px;
+$italian-offset-x: -1170px;
+$italian-offset-y: 0px;
+$italian-width: 320px;
+$italian-height: 225px;
+$italian-total-width: 1490px;
+$italian-total-height: 1405px;
+$italian-image: '../images/sprite2.png';
+$italian: (1170px, 0px, -1170px, 0px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'italian', );
+$mexican-hover-name: 'mexican-hover';
+$mexican-hover-x: 0px;
+$mexican-hover-y: 0px;
+$mexican-hover-offset-x: 0px;
+$mexican-hover-offset-y: 0px;
+$mexican-hover-width: 320px;
+$mexican-hover-height: 225px;
+$mexican-hover-total-width: 1490px;
+$mexican-hover-total-height: 1405px;
+$mexican-hover-image: '../images/sprite2.png';
+$mexican-hover: (0px, 0px, 0px, 0px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'mexican-hover', );
+$mexican-name: 'mexican';
+$mexican-x: 1170px;
+$mexican-y: 590px;
+$mexican-offset-x: -1170px;
+$mexican-offset-y: -590px;
+$mexican-width: 320px;
+$mexican-height: 225px;
+$mexican-total-width: 1490px;
+$mexican-total-height: 1405px;
+$mexican-image: '../images/sprite2.png';
+$mexican: (1170px, 590px, -1170px, -590px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'mexican', );
+$pizza-hover-name: 'pizza-hover';
+$pizza-hover-x: 0px;
+$pizza-hover-y: 885px;
+$pizza-hover-offset-x: 0px;
+$pizza-hover-offset-y: -885px;
+$pizza-hover-width: 320px;
+$pizza-hover-height: 225px;
+$pizza-hover-total-width: 1490px;
+$pizza-hover-total-height: 1405px;
+$pizza-hover-image: '../images/sprite2.png';
+$pizza-hover: (0px, 885px, 0px, -885px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'pizza-hover', );
+$pizza-name: 'pizza';
+$pizza-x: 390px;
+$pizza-y: 885px;
+$pizza-offset-x: -390px;
+$pizza-offset-y: -885px;
+$pizza-width: 320px;
+$pizza-height: 225px;
+$pizza-total-width: 1490px;
+$pizza-total-height: 1405px;
+$pizza-image: '../images/sprite2.png';
+$pizza: (390px, 885px, -390px, -885px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'pizza', );
+$seafood-hover-name: 'seafood-hover';
+$seafood-hover-x: 780px;
+$seafood-hover-y: 885px;
+$seafood-hover-offset-x: -780px;
+$seafood-hover-offset-y: -885px;
+$seafood-hover-width: 320px;
+$seafood-hover-height: 225px;
+$seafood-hover-total-width: 1490px;
+$seafood-hover-total-height: 1405px;
+$seafood-hover-image: '../images/sprite2.png';
+$seafood-hover: (780px, 885px, -780px, -885px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'seafood-hover', );
+$seafood-name: 'seafood';
+$seafood-x: 1170px;
+$seafood-y: 885px;
+$seafood-offset-x: -1170px;
+$seafood-offset-y: -885px;
+$seafood-width: 320px;
+$seafood-height: 225px;
+$seafood-total-width: 1490px;
+$seafood-total-height: 1405px;
+$seafood-image: '../images/sprite2.png';
+$seafood: (1170px, 885px, -1170px, -885px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'seafood', );
+$steak-hover-name: 'steak-hover';
+$steak-hover-x: 0px;
+$steak-hover-y: 1180px;
+$steak-hover-offset-x: 0px;
+$steak-hover-offset-y: -1180px;
+$steak-hover-width: 320px;
+$steak-hover-height: 225px;
+$steak-hover-total-width: 1490px;
+$steak-hover-total-height: 1405px;
+$steak-hover-image: '../images/sprite2.png';
+$steak-hover: (0px, 1180px, 0px, -1180px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'steak-hover', );
+$steak-name: 'steak';
+$steak-x: 390px;
+$steak-y: 295px;
+$steak-offset-x: -390px;
+$steak-offset-y: -295px;
+$steak-width: 320px;
+$steak-height: 225px;
+$steak-total-width: 1490px;
+$steak-total-height: 1405px;
+$steak-image: '../images/sprite2.png';
+$steak: (390px, 295px, -390px, -295px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'steak', );
+$sushi-hover-name: 'sushi-hover';
+$sushi-hover-x: 0px;
+$sushi-hover-y: 295px;
+$sushi-hover-offset-x: 0px;
+$sushi-hover-offset-y: -295px;
+$sushi-hover-width: 320px;
+$sushi-hover-height: 225px;
+$sushi-hover-total-width: 1490px;
+$sushi-hover-total-height: 1405px;
+$sushi-hover-image: '../images/sprite2.png';
+$sushi-hover: (0px, 295px, 0px, -295px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'sushi-hover', );
+$sushi-name: 'sushi';
+$sushi-x: 390px;
+$sushi-y: 1180px;
+$sushi-offset-x: -390px;
+$sushi-offset-y: -1180px;
+$sushi-width: 320px;
+$sushi-height: 225px;
+$sushi-total-width: 1490px;
+$sushi-total-height: 1405px;
+$sushi-image: '../images/sprite2.png';
+$sushi: (390px, 1180px, -390px, -1180px, 320px, 225px, 1490px, 1405px, '../images/sprite2.png', 'sushi', );
+$spritesheet-width: 1490px;
+$spritesheet-height: 1405px;
+$spritesheet-image: '../images/sprite2.png';
+$spritesheet-sprites: ($american-hover, $american, $chinese-hover, $chinese, $french-hover, $french, $indian-hover, $indian, $italian-hover, $italian, $mexican-hover, $mexican, $pizza-hover, $pizza, $seafood-hover, $seafood, $steak-hover, $steak, $sushi-hover, $sushi, );
+$spritesheet: (1490px, 1405px, '../images/sprite2.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Here are example usages in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+`display: inline-block` sprite:
+<img class="icon-home" />
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
